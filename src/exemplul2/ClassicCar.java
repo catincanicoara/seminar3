@@ -1,0 +1,8 @@
+package exemplul2;
+
+public class ClassicCar implements Car{
+    @Override
+    public void showInfo() {
+        System.out.println("classic");
+    }
+}
